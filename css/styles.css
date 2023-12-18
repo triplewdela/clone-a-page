@@ -91,26 +91,32 @@
     color: #1F2937;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding: 50px 0 50px 0;
 }
 
 .cardboxes {
     display: flex;
-    padding-top: 30px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .container-body img {
     border-radius: 10px;
     width: 130px;
     height: 100px;
-    overflow:hidden;
+    overflow:hidden;    
 }
 
 .card {
     padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.container-body p {
+    margin-top: 0;
 }
 
 .inspiring-quote .text {
