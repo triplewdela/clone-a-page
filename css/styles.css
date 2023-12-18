@@ -98,13 +98,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
 .container-body img {
     border-radius: 10px;
     width: 130px;
     height: 100px;
     overflow:hidden;    
+}
+
+.container-body img:hover {
+    border: 3px solid #3882F6;
 }
 
 .card {
@@ -119,9 +123,18 @@
     margin-top: 0;
 }
 
+.inspiring-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #E5E7EB
+}
+
 .inspiring-quote .text {
     margin: 5px;
-    flex: 1 1 0;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
 }
 
 .inspiring-quote .signature {
@@ -131,9 +144,4 @@
     flex: 2;
 }
 
-.inspiring-quote {
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
-    background-color: lightgoldenrodyellow
-}
+
