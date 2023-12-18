@@ -1,3 +1,8 @@
+.body {
+    min-height: 100vh;
+    margin: 0;
+}
+
 .header2 {
     border: 5px solid black;
     display: flex;
@@ -12,5 +17,43 @@
     flex-shrink: 0;
     margin: 50px;
     border: 5px solid green;
+}
 
+.container-body {
+    border: 10px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cardboxes {
+    display: flex;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    
+}
+
+.inspiring-quote .text {
+    display: flex;
+    padding: 5px;
+    
+
+}
+
+.inspiring-quote .signature {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    m
 }
