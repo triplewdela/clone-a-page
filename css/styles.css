@@ -64,6 +64,7 @@
     width: 100px;
     flex-shrink: 0;
     justify-content: center;
+    font-weight: 700;
 }
 
 .img-right {
