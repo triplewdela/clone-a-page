@@ -138,10 +138,9 @@
 }
 
 .inspiring-quote .signature {
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    flex: 2;
+    flex: 1;
+    align-self: end;
+    font-weight: 900;
 }
 
 
