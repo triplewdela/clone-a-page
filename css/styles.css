@@ -144,4 +144,23 @@
     font-weight: 900;
 }
 
+.product-sign-up {
+    border: 5px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.product-sign-up .sign-up-body {
+    background-color: #3882F6;
+    color: white;
+    height: 28px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid #E8E8E8;
+}
 
