@@ -108,7 +108,7 @@ html, body {
 .container-body img {
     border-radius: 10px;
     width: 130px;
-    height: 100px;
+    height: auto;
     overflow:hidden;    
 }
 
